@@ -28,6 +28,8 @@ public class Start {
         person.setAge(scanner.nextInt());
         System.out.println("Her age is " + person.getAge());
 
+        scanner.close();
+
         System.out.println("----------------------------------");
 
     }
